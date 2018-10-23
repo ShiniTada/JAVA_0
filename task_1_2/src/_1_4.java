@@ -37,15 +37,15 @@ class _1_4 {
         }
         if(valid) {
             if (day == max && month == 12) {
-                year = year + 1;
+                year++;
                 day = 1;
                 month = 1;
             }
-            else if (day == max && month != 12) {
+            else if (day == max ) {
                 day = 1;
-                month = month + 1;
+                month++;
                 }
-                else day = day + 1;
+                else day++;
 
             System.out.println("Следующий дата: " + day + "." + month + "." + year);
         }
