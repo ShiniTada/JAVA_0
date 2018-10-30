@@ -10,7 +10,6 @@ public class _2_2_4 {
     public static void main(String[] args) {
         int n = 666;
         for (int i = 1; i <= n; i++) {
-            int k = 0;
             if ((n % i == 0) && Simple(i)) System.out.println( "Делитель " + i + " - простой");
         }
     }
