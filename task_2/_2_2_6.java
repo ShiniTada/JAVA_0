@@ -10,7 +10,7 @@ public class task_2_2_6 {
         while(num != 0) {
             n = num % 10;
             isNewNumber = true;
-            for(int j = 0; j<=i; j++) {
+            for(int j = 0; j<=i && isNewNumber; j++) {
                 if (mas[j] == n) isNewNumber = false;
             }
             if(isNewNumber) {
