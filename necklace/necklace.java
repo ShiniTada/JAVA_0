@@ -86,8 +86,6 @@ public class necklace {
         example.printAll();
 
 
-
-
         System.out.println("Поиск по прозрачности");
         System.out.println("Введите минимальную прозрачность");
         Scanner scanner = new Scanner(System.in);
